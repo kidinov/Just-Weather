@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="error_text">Can\'t load data</string>
+    <string name="retry">Retry</string>
+    <string name="empty_default_text">You have no data</string>
+    <string name="add_city">Add city</string>
+    <string name="city_name">City name</string>
+    <string name="current_location">Current Location</string>
+</resources>

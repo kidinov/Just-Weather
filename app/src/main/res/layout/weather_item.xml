@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="4dp"
+    app:cardCornerRadius="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/default_margin">
+
+        <ImageView
+            android:id="@+id/pic_image_view"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            tools:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/location_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_small_body"
+            tools:drawableRight="@drawable/ic_my_location_gray_16dp"
+            tools:text="Amsterdam/NL" />
+
+        <TextView
+            android:id="@+id/temperature_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_headline"
+            android:textStyle="bold"
+            tools:text="11°" />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="@dimen/default_margin"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/text_small_body"
+            tools:text="17.04" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
