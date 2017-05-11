@@ -7,5 +7,4 @@
     <dimen name="text_small_body">14sp</dimen>
 
     <dimen name="default_margin">16dp</dimen>
-
 </resources>

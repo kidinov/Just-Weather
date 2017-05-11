@@ -13,13 +13,13 @@ android {
     buildToolsVersion '25.0.2'
 
     defaultConfig {
-        applicationId 'org.kidinov.w_app'
+        applicationId 'org.kidinov.just_weather'
         minSdkVersion 14
         targetSdkVersion 25
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         versionCode 1
-        versionName '0.0.1'
+        versionName '1.0.0'
 
         vectorDrawables.useSupportLibrary = true
     }

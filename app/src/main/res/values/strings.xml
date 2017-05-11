@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Weather</string>
-    <string name="error_text">Can\'t load data</string>
+    <string name="app_name">Just Weather</string>
+    <string name="network_error_text">Can\'t load data</string>
+    <string name="removal_current_error_text">You can\'t remove current city</string>
     <string name="retry">Retry</string>
     <string name="empty_default_text">You have no data</string>
     <string name="add_city">Add city</string>
