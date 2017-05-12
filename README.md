@@ -6,6 +6,7 @@ Easy in use app for get track of current weather in different cities arround the
 ![alt tag](https://github.com/kidinov/Just-Weather/blob/master/screenshots/1.png)
 ![alt tag](https://github.com/kidinov/Just-Weather/blob/master/screenshots/2.png)
 ![alt tag](https://github.com/kidinov/Just-Weather/blob/master/screenshots/3.png)
+![alt tag](<img src="https://github.com/favicon.ico" width="512">)
 
 Find out it on [Google Play](https://play.google.com/store/apps/details?id=org.kidinov.just_weather)
 
