@@ -7,7 +7,7 @@ Easy in use app for get track of current weather in different cities arround the
 
 Find out it on [Google Play](https://play.google.com/store/apps/details?id=org.kidinov.just_weather)
 
-Code archetecture follow MVP with RxJava2, dagger2, retrofit2 and realm.
+Code archetecture follow MVP with RxJava2, Dagger2, Retrofit2 and Realm.
 
 # Usage restriction
 This sources mostly for educational porpuse. You can use any part of that source as you wish, but you not able to build this app (cutting something) and publish as your application.
