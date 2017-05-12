@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Just Weather</string>
+    <string name="network_error_text">Ошибка загрузки</string>
+    <string name="removal_current_error_text">Вы не можете удалить текущий город</string>
+    <string name="retry">Повторить</string>
+    <string name="empty_default_text">У вас нет добавленных городов</string>
+    <string name="add_city">Добавить город</string>
+    <string name="city_name">Название города</string>
+    <string name="current_location">Текущий город</string>
+</resources>
