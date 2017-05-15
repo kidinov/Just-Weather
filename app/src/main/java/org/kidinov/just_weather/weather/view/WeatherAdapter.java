@@ -10,10 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
-
 import org.kidinov.just_weather.R;
-import org.kidinov.just_weather.util.remote.RemoteUtil;
+import org.kidinov.just_weather.util.remote.UIUtil;
 import org.kidinov.just_weather.weather.model.local.City;
 
 import java.text.DateFormat;
@@ -74,11 +72,8 @@ public class WeatherAdapter extends RecyclerView.Adapter<WeatherAdapter.WeatherI
         void bind(City city) {
             Context context = itemView.getContext();
             if (!city.getWeather().isEmpty()) {
-                Glide.with(context)
-                        .load(RemoteUtil.formatWeatherIconLink(city.getWeather().get(0).getIcon()))
-                        .fallback(R.mipmap.ic_launcher)
-                        .centerCrop()
-                        .into(picIv);
+                picIv.setImageDrawable(UIUtil.getDrawableByFileName(context, "ic_" +
+                        city.getWeather().get(0).getIcon()));
             }
             locationNameTv.setText(String.format("%s/%s", city.getName(), city.getSys().getCountry()));
             if (city.isCurrentLocationCity()) {

@@ -13,36 +13,40 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="@dimen/default_margin">
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/pic_image_view"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            tools:src="@mipmap/ic_launcher" />
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginTop="16dp"
+            tools:src="@drawable/ic_01n"/>
 
         <TextView
             android:id="@+id/location_name_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/default_margin"
             android:drawablePadding="4dp"
             android:gravity="center"
             android:textColor="@color/primary_text"
             android:textSize="@dimen/text_small_body"
             tools:drawableRight="@drawable/ic_my_location_gray_16dp"
-            tools:text="Amsterdam/NL" />
+            tools:text="Amsterdam/NL"/>
 
         <TextView
             android:id="@+id/temperature_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/default_margin"
             android:textColor="@color/primary_text"
             android:textSize="@dimen/text_headline"
             android:textStyle="bold"
-            tools:text="11°" />
+            tools:text="11°"/>
 
         <TextView
             android:id="@+id/date_text_view"
@@ -50,11 +54,12 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/default_margin"
             android:layout_marginRight="4dp"
             android:layout_marginTop="@dimen/default_margin"
             android:textColor="@color/secondary_text"
             android:textSize="@dimen/text_small_body"
-            tools:text="17.04" />
+            tools:text="17.04"/>
 
     </RelativeLayout>
 
