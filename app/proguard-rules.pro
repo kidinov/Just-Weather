@@ -37,7 +37,7 @@
 
 # OkHttp rules
 -dontwarn okio.**
--dontwarn com.squareup.okhttp.**
+-dontwarn retrofit2.Platform$Java8
 
 # Otto rules
 -keepclassmembers class ** {
