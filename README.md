@@ -1,4 +1,4 @@
-![alt tag](https://github.com/kidinov/Just_Weight/blob/master/publishing/banner.png)
+![alt tag](https://github.com/kidinov/Just-Weather/blob/master/screenshots/promo.png)
 
 # Just Weather
 Easy in use app for get track of current weather in different cities arround the world. 
