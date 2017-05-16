@@ -147,7 +147,8 @@ public class WeatherActivity extends AppCompatActivity implements WeatherContrac
                         }
                         View itemView = viewHolder.itemView;
 
-                        background.setBounds(itemView.getRight() + (int) dX, itemView.getTop(), itemView.getRight(), itemView.getBottom());
+                        background.setBounds(itemView.getRight() + (int) dX, itemView.getTop(),
+                                itemView.getRight(), itemView.getBottom());
                         background.draw(c);
 
                         // draw x mark
